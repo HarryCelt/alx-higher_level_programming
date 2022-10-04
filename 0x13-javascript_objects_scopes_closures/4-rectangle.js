@@ -1,8 +1,8 @@
 i#!/usr/bin/node
 module.exports = class Rectangle {
-	constructor (width, height) {
-		if (width > 0 && height > 0) {
-			[this.width, this.height] = [width, height];
+	constructor (w, h) {
+		if (w > 0 && h > 0) {
+			[this.width, this.height] = [w, h];
 		}
 	}
 
