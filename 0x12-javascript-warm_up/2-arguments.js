@@ -1,4 +1,6 @@
 #!/usr/bin/node
+import process from 'node:process';
+
 const len = process.argv.length;
 
 if (len < 3) {
